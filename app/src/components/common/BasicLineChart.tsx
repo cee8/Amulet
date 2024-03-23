@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { LineChart } from '@mui/x-charts/LineChart';
 
 interface BasicLineChartProps {
@@ -17,6 +16,7 @@ export default function BasicLineChart({
   return (
     <LineChart
       xAxis={[{ data: xAxisData }]}
+      yAxis={[{ min: 0, max: 10 }]} // Ensure Y-axis is always from 0 to 10
       series={[{ data: seriesData }]}
       width={width}
       height={height}
