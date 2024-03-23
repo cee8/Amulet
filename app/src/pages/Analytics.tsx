@@ -1,7 +1,7 @@
-import BasicLineChart from '../common/BasicLineChart';
-import { emotionsToStressLevels } from '../../utils/mapping';
-import { EmotionWord } from '../../utils/mapping';
-import { average } from '../../utils/average';
+import BasicLineChart from '../components/common/BasicLineChart';
+import { emotionsToStressLevels } from '../utils/mapping';
+import { EmotionWord } from '../utils/mapping';
+import { average } from '../utils/average';
 
 
 const yEmotions: EmotionWord[] = ['Amusement', 'Amusement', 'Admiration', 'Sympathy', 'Amusement', 'Admiration', 'Sympathy', 'Amusement', 'Admiration', 'Sympathy'];
