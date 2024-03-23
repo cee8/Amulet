@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import BasicLineChart from '../common/LineChart'
+import BasicLineChart from '../components/common/LineChart'
 
 function Home() {
     const [count, setCount] = useState(0)
