@@ -20,6 +20,7 @@ export default function BasicLineChart({
       series={[{ data: seriesData }]}
       width={width}
       height={height}
+      grid={{ vertical: true, horizontal: true }}
     />
   );
 }
